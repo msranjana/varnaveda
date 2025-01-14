@@ -2,17 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
+  background-color: #f9f9f9;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Smooth hover effect for images */
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Section styling */
+section#home {
+  padding: 6rem 2rem; /* Default padding for small screens */
+}
+
+@media (min-width: 640px) {
+  section#home {
+    padding: 6rem 3rem; /* Medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  section#home {
+    padding: 6rem 4rem; /* Large screens */
+  }
+}
+
+/* Category Title */
+.category-title {
+  font-size: 1.5rem; /* Adjust title size */
+  font-weight: 600; /* Make it bold */
+  color: #1a202c; /* Dark gray color */
+  margin-bottom: 1.5rem; /* Space below the title */
+}
+
+/* Category Section */
+.category-section {
+  margin-bottom: 2rem; /* Space between categories */
+}
+/* Grid Items (Card) */
+.grid img {
+  height: 250px; /* Set a fixed height for all images */
+  object-fit: contain; /* Ensure the entire image is visible */
+  width: 100%; /* Image spans the full width of the card */
+  border-radius: 0.5rem; /* Slightly rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.grid img:hover {
+  transform: scale(1.05); /* Slight zoom */
+}
+
+/* Grid Container */
+.grid {
+  display: grid;
+  gap: 1.5rem; /* Space between grid items */
+  margin-top: 1rem; /* Space above the grid */
+}
+
+/* Responsive Grid Layout */
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.sm\:grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.md\:grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
 }
