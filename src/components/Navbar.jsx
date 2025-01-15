@@ -2,13 +2,33 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 text-white py-4 px-6 shadow-md">
+    <nav className="bg-[#F0EBE3] text-[#2C2C2C] py-4 px-6 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#home" className="text-xl font-bold">My Artwork</a>
-        <div className="space-x-6">
-          <a href="#home" className="hover:underline">Home</a>
-          <a href="#about" className="hover:underline">About Me</a>
-          <a href="mailto:your-msranjana22@gmail.com" className="hover:underline">Contact</a>
+        <a
+          href="#home"
+          className="text-2xl font-bold hover:text-[#8A817C] transition-colors"
+        >
+          My Artwork
+        </a>
+        <div className="space-x-8">
+          <a
+            href="#home"
+            className="text-lg hover:text-[#8A817C] transition-colors"
+          >
+            Home
+          </a>
+          <a
+            href="#about"
+            className="text-lg hover:text-[#8A817C] transition-colors"
+          >
+            About Me
+          </a>
+          <a
+            href="mailto:msranjana22@gmail.com"
+            className="text-lg hover:text-[#8A817C] transition-colors"
+          >
+            Contact
+          </a>
         </div>
       </div>
     </nav>
