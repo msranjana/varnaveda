@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const categories = {
-  Mandala: [
+  Mandalas: [
     require("../assets/mandalas/mandala1.jpg"),
     require("../assets/mandalas/mandala2.jpg"),
     require("../assets/mandalas/mandala3.jpg"),
@@ -23,7 +23,7 @@ const categories = {
 
 
   ],
-  Painting: [
+  Paintings: [
     require("../assets/paintings/painting1.jpg"),
     require("../assets/paintings/painting2.jpg"),
     require("../assets/paintings/painting3.jpg"),
@@ -52,6 +52,7 @@ const categories = {
 };
 
 const Gallery = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedImage, setSelectedImage] = useState(null);
 
   const handleImageClick = (src) => {
@@ -62,12 +63,33 @@ const Gallery = () => {
     setSelectedImage(null);
   };
 
+  const filteredCategories = selectedCategory === "All" ? categories : { [selectedCategory]: categories[selectedCategory] };
+
   return (
-    <section id="home" className="min-h-screen bg-gray-100 p-8">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">
-        My Artwork
+    <section id="home" className="min-h-screen bg-[#D1CFC9] p-8">
+      <h2 className="text-4xl font-bold text-center text-[#2C2C2C] mb-10 font-poppins">
+        My Artworks
       </h2>
-      {Object.entries(categories).map(([category, images], catIndex) => (
+      <div className="flex justify-center mb-10 flex-wrap gap-4">
+  {["All", ...Object.keys(categories)].map((category) => (
+    <motion.button
+      key={category}
+      onClick={() => setSelectedCategory(category)}
+      className={`px-5 py-2 text-lg font-semibold rounded-full transition-all duration-300 shadow-md 
+        ${
+          selectedCategory === category
+            ? "bg-[#2C2C2C] text-white scale-105 shadow-lg"
+            : "bg-white text-[#2C2C2C] hover:bg-[#8A817C] hover:text-white hover:scale-105"
+        }`}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+    >
+      {category}
+    </motion.button>
+  ))}
+</div>
+
+      {Object.entries(filteredCategories).map(([category, images], catIndex) => (
         <div key={catIndex} className="mb-12">
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             {images.map((src, index) => (

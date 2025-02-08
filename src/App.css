@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+/* Dark mode styles */
+:root {
+  --bg-color: #d1cfc9;
+  --text-color: #2c2c2c;
+  --hover-color: #8a9ba8;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+button {
+  color: var(--text-color);
+}
+
+button:hover {
+  color: var(--hover-color);
+}
