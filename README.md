@@ -37,12 +37,9 @@ Your portfolio will be live at `http://localhost:5173/` (if using Vite) or `http
 
 
 ## 🌍 Deployment
- **Vercel** (`vercel deploy`)
+ **Vercel** 
  
-
-
 
 ---
 
-💖 *Thank you for visiting my portfolio! Feel free to connect and share your thoughts.*
 
