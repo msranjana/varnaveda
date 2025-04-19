@@ -16,7 +16,8 @@ A beautifully designed single-page website to showcase my artwork, built using *
 <!-- - **Frontend:** React.js
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion -->
-![image](https://github.com/user-attachments/assets/2b56646d-4a49-4e20-8472-9370186f424d)
+![image](https://github.com/user-attachments/assets/a315168f-aea8-428c-9222-931ba90b7f0b)
+
 
 
 ## 🚀 Getting Started
