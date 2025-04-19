@@ -13,9 +13,11 @@ A beautifully designed single-page website to showcase my artwork, built using *
 - 🚀 **Responsive Design** – Works on all devices.
 
 ## 📦 Tech Stack
-- **Frontend:** React.js
+<!-- - **Frontend:** React.js
 - **Styling:** Tailwind CSS
-- **Animations:** Framer Motion
+- **Animations:** Framer Motion -->
+![image](https://github.com/user-attachments/assets/2b56646d-4a49-4e20-8472-9370186f424d)
+
 
 ## 🚀 Getting Started
 ### 1️⃣ Clone the repository
