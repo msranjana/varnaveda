@@ -19,7 +19,6 @@ A beautifully designed single-page website to showcase my artwork, built using *
 ![image](https://github.com/user-attachments/assets/a315168f-aea8-428c-9222-931ba90b7f0b)
 
 
-
 ## 🚀 Getting Started
 ### 1️⃣ Clone the repository
 ```sh
@@ -36,12 +35,8 @@ npm install
 ```sh
 npm run dev
 ```
-Your portfolio will be live at `http://localhost:5173/` (if using Vite) or `http://localhost:3000/` (if using CRA).
+Your portfolio will be live at `http://localhost:3000/` 
 
-
-## 🌍 Deployment
- **Vercel** 
- 
 
 ---
 
