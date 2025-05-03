@@ -14,7 +14,7 @@ const About = () => {
           <p className="text-xl text-[#2C2C2C] leading-relaxed">
            Welcome to my portfolio! 
           I hope you enjoy browsing through my creations . 
-          Feel free to reach out for collaborations 🤝 or enquiries 📩. Also check out my <a href="https://www.instagram.com/varnaveda" className="text-[#2C2C2C] hover:text-[#8A817C] transition-colors font-semibold">instagram page</a>.
+          Feel free to reach out for collaborations 🤝 or enquiries 📩. Also check out my <a href="https://www.instagram.com/_budding_artist/" className="text-[#2C2C2C] hover:text-[#8A817C] transition-colors font-semibold">instagram page</a>.
           </p>
         </div>
 
