@@ -70,24 +70,24 @@ const Gallery = () => {
       <h2 className="text-4xl font-bold text-center text-[#2C2C2C] mb-10 font-poppins">
         My Artworks
       </h2>
-      <div className="flex justify-center mb-10 flex-wrap gap-4">
-  {["All", ...Object.keys(categories)].map((category) => (
-    <motion.button
-      key={category}
-      onClick={() => setSelectedCategory(category)}
-      className={`px-5 py-2 text-lg font-semibold rounded-full transition-all duration-300 shadow-md 
-        ${
-          selectedCategory === category
-            ? "bg-[#2C2C2C] text-white scale-105 shadow-lg"
-            : "bg-white text-[#2C2C2C] hover:bg-[#8A817C] hover:text-white hover:scale-105"
-        }`}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.9 }}
-    >
-      {category}
-    </motion.button>
-  ))}
-</div>
+      <div className="flex justify-center mb-10 flex-wrap gap-2 sm:gap-4">
+        {["All", ...Object.keys(categories)].map((category) => (
+          <motion.button
+            key={category}
+            onClick={() => setSelectedCategory(category)}
+            className={`px-3 py-1 sm:px-5 sm:py-2 text-sm sm:text-lg font-semibold rounded-full transition-all duration-300 shadow-md 
+              ${
+                selectedCategory === category
+                  ? "bg-[#2C2C2C] text-white scale-105 shadow-lg"
+                  : "bg-white text-[#2C2C2C] hover:bg-[#8A817C] hover:text-white hover:scale-105"
+              }`}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            {category}
+          </motion.button>
+        ))}
+      </div>
 
       {Object.entries(filteredCategories).map(([category, images], catIndex) => (
         <div key={catIndex} className="mb-12">
