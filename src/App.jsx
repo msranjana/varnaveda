@@ -9,7 +9,7 @@ import ReactGA from 'react-ga4';
 
 const App = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
-ReactGA.initialize('G-1G5XWRMC6Y');
+ReactGA.initialize('G-61LHJNFD9D');
 
 // Send initial pageview
 ReactGA.send({ hitType: "pageview", page: window.location.pathname });
