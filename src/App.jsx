@@ -5,9 +5,14 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import ReactGA from 'react-ga4';
 
 const App = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
+ReactGA.initialize('G-1G5XWRMC6Y');
+
+// Send initial pageview
+ReactGA.send({ hitType: "pageview", page: window.location.pathname });
 
   return (
     <div id="home">
@@ -47,3 +52,4 @@ const App = () => {
 };
 
 export default App;
+
