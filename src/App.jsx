@@ -6,7 +6,7 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import ReactGA from 'react-ga4';
-
+import { Analytics } from "@vercel/analytics/react"
 const App = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
 ReactGA.initialize('G-61LHJNFD9D');
@@ -17,6 +17,7 @@ ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   return (
     <div id="home">
       <Navbar onContactClick={() => setIsContactOpen(true)} />
+      <Analytics /> {/* Add Analytics here */}
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
