@@ -43,7 +43,7 @@ const About = () => {
           <img
             src={require("../assets/me.JPG")}
             alt="About Me"
-            className="w-full max-w-[350px] md:max-w-[450px] h-auto border-0 shadow-none bg-transparent p-0 m-0"
+            className="w-full max-w-[400px] md:max-w-[550px] h-auto border-0 shadow-none bg-transparent p-0 m-0"
           />
         </div>
       </div>
