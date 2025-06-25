@@ -10,7 +10,7 @@ const About = () => {
             Namaskara! I'm{" "}
             <span className="font-semibold text-[#2C2C2C]">Ranjana</span>, a
             passionate artist specializing in Mandala and Painting. Beyond that, I
-            enjoy sketching and doodling, letting my imagination flow freely.
+            enjoy sketching and doodling, letting my imagination and creativity flow freely.
           </p>
           <p className="text-base sm:text-lg md:text-xl text-[#2C2C2C] mb-4 sm:mb-6 leading-relaxed text-justify">
             My inspiration often comes from nature, culture, and the everyday
