@@ -19,7 +19,7 @@ const About = () => {
             to connect with me on{" "}
             <a
               href="https://www.instagram.com/_budding_artist/"
-              className="text-[#2C2C2C] hover:text-[#D1CFC9] transition-colors font-semibold underline"
+              className="text-[#2C2C2C] hover:text-[#7a6523] transition-colors font-semibold underline"
             >
               Instagram
             </a>{" "}
@@ -30,7 +30,7 @@ const About = () => {
             or exploring new ideas on{" "}
             <a
               href="https://in.pinterest.com/msranjana04/"
-              className="text-[#2C2C2C] hover:text-[#D1CFC9] transition-colors font-semibold underline"
+              className="text-[#2C2C2C] hover:text-[#7a6523] transition-colors font-semibold underline"
             >
               Pinterest
             </a>
