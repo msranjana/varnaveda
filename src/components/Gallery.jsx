@@ -19,9 +19,6 @@ const categories = {
     require("../assets/mandalas/mandala14.jpg"),
     require("../assets/mandalas/mandala15.jpg"),
     require("../assets/mandalas/mandala16.jpg"),
-
-
-
   ],
   Paintings: [
     require("../assets/paintings/painting1.jpg"),
@@ -48,6 +45,12 @@ const categories = {
     require("../assets/doodles/doodle2.jpg"),
     require("../assets/doodles/doodle3.jpg"),
     require("../assets/doodles/doodle4.jpg"),
+  ],
+  SpeedPaintings: [
+    require("../assets/speedpaintings/speedpainting1.jpg"),
+    require("../assets/speedpaintings/speedpainting2.jpg"),
+    require("../assets/speedpaintings/speedpainting3.png"),
+   
   ],
 };
 
