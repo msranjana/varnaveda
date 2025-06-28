@@ -30,13 +30,7 @@ const Navbar = ({ onContactClick }) => {
           >
             Home
           </motion.a>
-          <motion.a
-            whileHover={{ scale: 1.1, color: "#8A817C" }}
-            href="#about"
-            className="text-lg font-bold transition-all duration-300"
-          >
-            About Me
-          </motion.a>
+          
           <motion.button
             whileHover={{ scale: 1.1, color: "#8A817C" }}
             onClick={onContactClick}
