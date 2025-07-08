@@ -40,16 +40,16 @@ const categories = {
     require("../assets/sketches/sketch3.jpg"),
     require("../assets/sketches/sketch4.jpg"),
   ],
+  LivePaintings: [
+    require("../assets/speedpaintings/speedpainting3.png"),
+    require("../assets/speedpaintings/speedpainting2.jpg"),
+    require("../assets/speedpaintings/speedpainting1.jpg"),
+  ],
   Doodles: [
     require("../assets/doodles/doodle1.jpg"),
     require("../assets/doodles/doodle2.jpg"),
     require("../assets/doodles/doodle3.jpg"),
     require("../assets/doodles/doodle4.jpg"),
-  ],
-  LivePaintings: [
-    require("../assets/speedpaintings/speedpainting3.png"),
-    require("../assets/speedpaintings/speedpainting2.jpg"),
-    require("../assets/speedpaintings/speedpainting1.jpg"),
   ],
 };
 
