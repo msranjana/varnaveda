@@ -47,10 +47,9 @@ const categories = {
     require("../assets/doodles/doodle4.jpg"),
   ],
   LivePaintings: [
-    require("../assets/speedpaintings/speedpainting1.jpg"),
-    require("../assets/speedpaintings/speedpainting2.jpg"),
     require("../assets/speedpaintings/speedpainting3.png"),
-   
+    require("../assets/speedpaintings/speedpainting2.jpg"),
+    require("../assets/speedpaintings/speedpainting1.jpg"),
   ],
 };
 
