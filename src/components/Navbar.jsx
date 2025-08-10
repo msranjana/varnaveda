@@ -65,13 +65,7 @@ const Navbar = ({ onContactClick }) => {
             exit={{ opacity: 0, y: -20 }}
             className="md:hidden absolute top-16 left-0 w-full bg-[#D1CFC9]/90 backdrop-blur-md shadow-lg py-5 flex flex-col items-center space-y-4"
           >
-            <a
-              href="#home"
-              className="text-lg font-bold text-[#2C2C2C] hover:text-[#8A817C] transition-all duration-300"
-              onClick={() => setIsOpen(false)}
-            >
-              Home
-            </a>
+            
             <a
               href="#about"
               className="text-lg font-bold text-[#2C2C2C] hover:text-[#8A817C] transition-all duration-300"
