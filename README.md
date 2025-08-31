@@ -1,7 +1,9 @@
-
 # 🎨 Varnveda - Art Portfolio
 
 A beautifully designed single-page website to showcase my artwork, built using **React, Tailwind CSS, and Framer Motion**.
+
+<img width="1920" height="1440" alt="VARNAVEDA" src="https://github.com/user-attachments/assets/58bdcb8a-7186-4746-9196-b644e2ce6099" />
+
 
 ## 🌟 Features
 - 🏠 **Home Section** – A basic homepage for my art portfolio.
