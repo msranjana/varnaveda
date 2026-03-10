@@ -40,7 +40,7 @@ const Navbar = ({ onContactClick }) => {
               </motion.button>
           <motion.a
             whileHover={{ scale: 1.1, color: "#8A817C" }}
-            href="https://www.instagram.com/varnaveda"
+            href="https://www.instagram.com/_budding_artist/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg font-bold flex items-center transition-all duration-300"
