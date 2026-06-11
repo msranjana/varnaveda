@@ -22,17 +22,10 @@ const About = () => {
             </a>{" "}
             or drop me a message here!
           </p>
-          {/* <p className="text-base sm:text-lg md:text-xl text-[#2C2C2C] mb-4 sm:mb-6 leading-relaxed text-justify italic">
+          { <p className="text-base sm:text-lg md:text-xl text-[#2C2C2C] mb-4 sm:mb-6 leading-relaxed text-justify italic">
             PS: When I'm not drawing, you’ll find me capturing moments on my camera
-            or exploring new ideas on{" "}
-            <a
-              href="https://in.pinterest.com/msranjana04/"
-              className="text-[#2C2C2C] hover:text-[#7a6523] transition-colors font-semibold underline"
-            >
-              Pinterest
-            </a>
-            .
-          </p> */}
+            or exploring new ideas on Pinterest.
+          </p> }
         </div>
 
         {/* Right Side: Image */}
