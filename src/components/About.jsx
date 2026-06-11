@@ -38,7 +38,7 @@ const About = () => {
         {/* Right Side: Image */}
         <div className="md:w-1/4 flex justify-center items-center">
           <img
-            src={require("../assets/me.JPG")}
+            src={require("../assets/me.png")}
             alt="About Me"
             className="w-full max-w-[400px] md:max-w-[550px] h-auto border-0 shadow-none bg-transparent p-0 m-0"
           />
