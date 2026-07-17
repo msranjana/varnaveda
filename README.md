@@ -21,25 +21,4 @@ A beautifully designed single-page website to showcase my artwork, built using *
 ![image](https://github.com/user-attachments/assets/a315168f-aea8-428c-9222-931ba90b7f0b)
 
 
-## 🚀 Getting Started
-### 1️⃣ Clone the repository
-```sh
-git clone https://github.com/msranjana/varnaveda.git
-cd varnaveda
-```
-
-### 2️⃣ Install dependencies
-```sh
-npm install
-```
-
-### 3️⃣ Start the development server
-```sh
-npm run dev
-```
-Your portfolio will be live at `http://localhost:3000/` 
-
-
----
-
 
